@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cocktail Random</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <script>
+    console.log("JS caricato");
+  </script>
+
+  <body>
+    <button id="random-btn">Dammi un drink random</button>
+
+    <div class="cocktail-card" id="cocktail-card" style="display: none">
+      <h2 id="cocktail-name"></h2>
+      <img id="cocktail-img" src="" alt="Immagine cocktail" />
+      <p><strong>Categoria:</strong> <span id="cocktail-category"></span></p>
+      <p>
+        <strong>Istruzioni:</strong> <span id="cocktail-instructions"></span>
+      </p>
+      <ul id="cocktail-ingredients"></ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
